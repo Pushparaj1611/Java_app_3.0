@@ -1,5 +1,5 @@
 pipeline { 
-    agent any
+    agent slave2
     
     tools {
         maven 'maven' // Specifies the Maven installation configured in Jenkins
